@@ -3,8 +3,11 @@ import time
 import random
 
 print('开始测试')
+print('更新')
+
 # 初始化pygame
 pygame.init()
+
 
 # 定义颜色
 white = (255, 255, 255)
