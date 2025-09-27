@@ -2,9 +2,6 @@ import pygame
 import time
 import random
 
-print('开始测试')
-print('更新')
-print('更新1')
 # 初始化pygame
 pygame.init()
 
