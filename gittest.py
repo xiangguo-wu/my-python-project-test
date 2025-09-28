@@ -4,3 +4,5 @@ def gittest(A,B):
 
 print(gittest(1,2))
 print(gittest(4,6))
+print(gittest(4100,500))
+
