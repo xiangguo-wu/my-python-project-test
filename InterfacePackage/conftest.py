@@ -3,6 +3,7 @@ import pytest_html
 from py.xml import html
 
 
+
 def pytest_configure(config):
     # 兼容旧版本的元数据设置
     if not hasattr(config, '_metadata'):
