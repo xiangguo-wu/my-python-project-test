@@ -1,5 +1,5 @@
 import requests
-from urllib3.exceptions import InsecureRequestWarning
+from urllib3.exceptions import InsecureRequestWarning #导入禁用模块
 
 # 禁用SSL证书安全警告
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)

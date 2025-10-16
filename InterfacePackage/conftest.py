@@ -7,8 +7,8 @@ def pytest_configure(config):
     # 兼容旧版本的元数据设置
     if not hasattr(config, '_metadata'):
         config._metadata = {}
-    config._metadata["项目名称"] = "电商平台测试套件"
-    config._metadata["测试环境"] = "预发布环境"
+    config._metadata["项目名称"] = "电商自动化"
+    config._metadata["测试环境"] = "UAT环境"
 
     # 删除不需要的默认元数据
     for key in ["Packages", "Plugins"]:
