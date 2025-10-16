@@ -8,6 +8,7 @@ import socket#导入设定超时等待时间模块
 from requests.adapters import HTTPAdapter#导入requests模块中的https请求适配型的方法
 
 
+
 # 禁用SSL警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
