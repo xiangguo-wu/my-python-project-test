@@ -1,7 +1,8 @@
+#此程序用来执行测试用例
 import pytest#导入pytest框架
 import requests#导入https接口请求模块
 import json#入参和返参使用json格式，需要用到这个模块
-import GetTwUatToken#导入自动生成token模块
+from . import GetTwUatToken#导入自动生成token模块，这里使用相对路径，不然就需要自己去添加搜索路径才行
 import urllib3#导入禁用SSL告警模块
 from urllib3.util.retry import Retry#导入重置机制模块
 import socket#导入设定超时等待时间模块

@@ -1,7 +1,8 @@
+#此程序用来生成html测试报告
+#生成html测试报告：打开pycharm的终端，进入InterfacePackage文件目录下，运行以下命令后得到html文件：pytest test_GetInterfaceTest.py --html=Myreport.html
 import pytest
 import pytest_html
 from py.xml import html
-
 
 
 def pytest_configure(config):

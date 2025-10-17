@@ -1,3 +1,4 @@
+#此程序用来获取台湾的token
 import requests
 from urllib3.exceptions import InsecureRequestWarning #导入禁用模块
 
